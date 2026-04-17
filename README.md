@@ -10,7 +10,6 @@ HASBLEIDY JOHANNA SILVA ESCARRAGA 110002
 
 ## Documentación
 
-<!-- Incluir diagramas y adjuntar al repositorio, en una carpeta src, el flujo que crearon -->
 
 
 ## Conclusiones
