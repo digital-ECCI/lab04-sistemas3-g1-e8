@@ -9,7 +9,6 @@ EINER JULIAN AGUDELO ACOSTA 105352
 HASBLEIDY JOHANNA SILVA ESCARRAGA 110002
 
 
-#  Proyecto: Procesamiento de Colores RGB con Node-RED y Python
 
 ## Descripción del Proyecto
 Este proyecto implementa un sistema que permite seleccionar un color desde una interfaz gráfica en Node-RED, visualizar sus valores RGB y almacenarlos en un archivo de texto. Posteriormente, un script en Python lee este archivo y procesa los valores para mostrar información adicional como su representación hexadecimal y su normalización.
@@ -17,6 +16,20 @@ Este proyecto implementa un sistema que permite seleccionar un color desde una i
 El sistema combina programación visual (Node-RED) con procesamiento de datos en Python, demostrando la integración entre diferentes tecnologías mediante archivos compartidos.
 
 ---
+
+
+## CONTENIDO 
+
+- [Características](#características})
+- [Arquitectura](#Arquitectura)
+- [Requisitos de Hardware](#requisitos-de-Hardware)
+- [Estructura de Clases](#estructura-de-clases)
+- [API de Referencia](#api-de-referencia)
+- [Funcionalidades Implementadas](#funcionalidades-Implementadas)
+- [Tecnologías Utilizadas](#tecnologías-Utilizadas)
+- [Desafíos técnicos](#desafíos-técnicos)
+- [Mejoras Futuras](#mejoras-Futuras)
+
 
 ## Características
 - Interfaz gráfica para selección de color
