@@ -43,21 +43,29 @@ El sistema combina programación visual (Node-RED) con procesamiento de datos en
 ---
 
 ##  Arquitectura
-El sistema sigue una arquitectura tipo **productor-consumidor**:
-
-- **Node-RED (Productor)**
-  - Selector de color
-  - Conversión a RGB
-  - Escritura en archivo
-
-- **Archivo de texto (`rgb_values.txt`)**
-  - Medio de almacenamiento e intercambio
-
-- **Python (Consumidor)**
-  - Lectura del archivo
-  - Procesamiento de datos
-  - Visualización de resultados
-
+┌──────────────────────────────┐
+│        Node-RED (UI)         │
+│  - Selector de color         │
+│  - Conversión a RGB          │
+│  - Visualización             │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│     Archivo de Texto         │
+│     rgb_values.txt           │
+│  - Almacenamiento de datos   │
+│  - Formato: R:G:B            │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│        Script Python         │
+│  - Lectura del archivo       │
+│  - Procesamiento RGB         │
+│  - Conversión a HEX          │
+│  - Normalización             │
+└──────────────────────────────┘
 ---
 
 ##  Requisitos de Hardware
