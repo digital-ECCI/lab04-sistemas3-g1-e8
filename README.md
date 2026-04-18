@@ -95,7 +95,7 @@ Se emplean:
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - Node-RED
 - Node.js
