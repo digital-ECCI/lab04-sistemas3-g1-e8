@@ -43,6 +43,7 @@ El sistema combina programación visual (Node-RED) con procesamiento de datos en
 ---
 
 ##  Arquitectura
+```
 ┌──────────────────────────────┐
 │        Node-RED (UI)         │
 │  - Selector de color         │
@@ -66,6 +67,7 @@ El sistema combina programación visual (Node-RED) con procesamiento de datos en
 │  - Conversión a HEX          │
 │  - Normalización             │
 └──────────────────────────────┘
+```
 ---
 
 ##  Requisitos de Hardware
